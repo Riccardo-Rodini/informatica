@@ -14,7 +14,7 @@ int main()
 		printf("inserisci un numero\n");
 		scanf("%d",&num);
 		if(num%2==0)
-		   c++;
+			c++;
 	}while(num!=0);
 	
       c--;
