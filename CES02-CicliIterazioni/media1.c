@@ -31,6 +31,6 @@ int main()
 	}
 	while (n!=0); //continua fino a chè n!=0
 	
-	media = somma/cont;
-	printf("la media dei voti e %.2.f");
+	media = somma/(float)cont;
+	printf("la media dei voti e %.2f\n",media);
 }
